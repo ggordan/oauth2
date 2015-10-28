@@ -18,10 +18,10 @@ import (
 	"strings"
 	"time"
 
+	"github.com/ggordan/oauth2"
+	"github.com/ggordan/oauth2/internal"
+	"github.com/ggordan/oauth2/jws"
 	"golang.org/x/net/context"
-	"golang.org/x/oauth2"
-	"golang.org/x/oauth2/internal"
-	"golang.org/x/oauth2/jws"
 )
 
 var (
